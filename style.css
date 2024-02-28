@@ -1,0 +1,22 @@
+
+.slideshow-elements{
+
+}
+.slideshow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: beige;
+
+}
+.single-element{
+    text-align: center;
+}
+
+.single-element i,h2{
+    font-size: 10rem;
+    color: coral;
+
+
+}
