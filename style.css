@@ -12,11 +12,19 @@
 }
 .single-element{
     text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0);
 }
 
 .single-element i,h2{
     font-size: 10rem;
     color: coral;
 
+
+}
+.single-element.current{
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(1);
 
 }
